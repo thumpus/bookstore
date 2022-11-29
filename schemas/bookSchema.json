@@ -1,0 +1,88 @@
+{
+    "$schema": "https://json-schema.org/draft/2019-09/schema",
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "default": {},
+    "title": "Root Schema",
+    "required": [
+        "amazon_url",
+        "author",
+        "title"
+    ],
+    "properties": {
+        "isbn": {
+            "type": "boolean",
+            "default": false,
+            "title": "The isbn Schema",
+            "examples": [
+                false
+            ]
+        },
+        "amazon_url": {
+            "type": "string",
+            "default": "",
+            "title": "The amazon_url Schema",
+            "examples": [
+                "amazon.com"
+            ]
+        },
+        "author": {
+            "type": "string",
+            "default": "",
+            "title": "The author Schema",
+            "examples": [
+                "billy mcshit"
+            ]
+        },
+        "language": {
+            "type": "string",
+            "default": "",
+            "title": "The language Schema",
+            "examples": [
+                "A green door"
+            ]
+        },
+        "pages": {
+            "type": "integer",
+            "default": 0,
+            "title": "The pages Schema",
+            "examples": [
+                12
+            ]
+        },
+        "publisher": {
+            "type": "string",
+            "default": "",
+            "title": "The publisher Schema",
+            "examples": [
+                "big shit books"
+            ]
+        },
+        "title": {
+            "type": "string",
+            "default": "",
+            "title": "The title Schema",
+            "examples": [
+                "auuugoooogoog"
+            ]
+        },
+        "year": {
+            "type": "integer",
+            "default": 0,
+            "title": "The year Schema",
+            "examples": [
+                1992
+            ]
+        }
+    },
+    "examples": [{
+        "isbn": false,
+        "amazon_url": "amazon.com",
+        "author": "billy mcshit",
+        "language": "A green door",
+        "pages": 12,
+        "publisher": "big shit books",
+        "title": "auuugoooogoog",
+        "year": 1992
+    }]
+}
